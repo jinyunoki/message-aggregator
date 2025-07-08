@@ -1,0 +1,46 @@
+{
+    "env": {
+      "MCP_TIMEOUT": "30000",
+      "MCP_TOOL_TIMEOUT": "120000",
+      "BASH_DEFAULT_TIMEOUT_MS": "60000",
+      "BASH_MAX_TIMEOUT_MS": "300000"
+    },
+    "permissions": {
+      "allow": [
+        "Bash(mkdir:*)",
+        "Bash(npm init:*)",
+        "Bash(npm install:*)",
+        "Bash(npm run build:main:*)",
+        "Bash(npm run build:preload:*)",
+        "Bash(npm run build:renderer:*)",
+        "Bash(npm run build:*)",
+        "Bash(npm run start:*)",
+        "Bash(npm run dev:*)",
+        "Bash(npm run lint:*)",
+        "Bash(npm run typecheck:*)",
+        "Bash(npm run test:*)",
+        "Bash(find:*)",
+        "Bash(git add:*)",
+        "Bash(git commit:*)",
+        "Bash(npm run rebuild:*)",
+        "Bash(npm run dev:all:*)",
+        "Bash(npm run build:*)",
+        "Bash(cat:*)",
+        "Bash(ls:*)",
+        "Bash(npx prisma init:*)",
+        "Bash(touch:*)",
+        "Bash(npx prisma generate:*)",
+        "Bash(npx prisma db pull:*)",
+        "Bash(cp:*)",
+        "Bash(npx prisma:*)",
+        "Bash(sqlite3:*)"
+      ]
+    },
+    "allowedTools": [
+      "Write",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ],
+    "permissionMode": "acceptEdits"
+  }
